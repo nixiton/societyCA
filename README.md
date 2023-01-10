@@ -11,7 +11,7 @@
 
 ## Build et mise en service des containers docker
 
-	`docker-compose build`
+	'docker-compose build'
 	`docker-compose up`
 
 ## Accéder au backend
