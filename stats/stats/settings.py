@@ -137,20 +137,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CELERY_BROKER_URL = 'redis://redis:6379'  # Docker
 
 
-# gmail
-
-#DataFlair
-EMAIL_BACKEND ='django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_USE_TLS = True
-EMAIL_PORT = 587
-EMAIL_HOST_USER = 'nixitonbira@gmail.com'
-EMAIL_HOST_PASSWORD = 'xbpskaroopcvshjq'
-RECIPIENT_ADDRESS = ["nixitonbira@gmail.com",]
-
-
-
-
 # CROSS SETTINGS
 
 #CORS_ORIGIN_ALLOW_ALL = True
